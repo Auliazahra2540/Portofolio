@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aulia Zahra Portfolio </title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <style>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aulia Zahra Portfolio</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <style>
+    /* CSS sebelumnya */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf6f0; /* krem muda */
+      color: #4b2e2e; /* coklat tua */
+    }
+
+    .navbar {
+      background-color: #6b4c3b; /* coklat */
+    }
+
+    .nav-link {
+      color: #fdf6f0 !important;
+    }
+
+    .nav-link:hover {
+      color: #d2b48c !important; /* tan */
+    }
+
+    section {
+      padding-top: 80px;
+    }
+
+    .card {
+      border: none;
+      background-color: #fff9f4;
+    }
+
+    .card-title {
+      color: #5c3d2e;
+    }
+
+    .card-text {
+      color: #6b4c3b;
+    }
+
+    h1, h2 {
+      color: #5c3d2e;
+    }
+
+    .list-group-item {
+      background-color: #fffdfb;
+      border: none;
+    }
+
+    #home {
+      background-color: #fdf6f0;
+    }
+
+    #about, #galeri {
+      background-color: #fffaf5;
+    }
+
+    #portfolio {
+      background-color: #f3e4d7;
+    }
+
+    /* Animasi untuk header */
+    @keyframes slideUp {
+      0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Efek animasi untuk judul dan teks di beranda */
+    h1, .lead {
+      animation: slideUp 1s ease-out;
+    }
+
+    /* Animasi untuk gambar di beranda */
+    .rounded-circle {
+      animation: slideUp 1.5s ease-out;
+    }
+
+    /* Animasi untuk konten About */
+    @keyframes fadeInLeft {
+      0% {
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .card-body {
+      animation: fadeInLeft 1s ease-out;
+    }
+
+    .img-fluid {
+      animation: fadeInLeft 1.2s ease-out;
+    }
+
+    /* Efek animasi pada galeri */
+    .card-img-top {
+      animation: fadeInLeft 1.2s ease-out;
+    }
+
+    /* Animasi untuk portfolio */
+    .card-body {
+      animation: fadeInLeft 1.5s ease-out;
+    }
+
+    /* Tambahan untuk membuat galeri lebih menarik */
+    .card-img-top {
+      animation: fadeInLeft 1.5s ease-out;
+    }
+  </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Riwayat Pendidikan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section Beranda -->
+<section id="home" class="vh-100 d-flex align-items-center">
+  <div class="container text-center">
+    <h1 class="display-4">Hi gaiss💕💕</h1>
+    <p class="lead">Aulia Zahra Elviani here👋</p>
+    <img src="fotozahra3.jpeg" alt="Foto Aulia Zahra" class="rounded-circle mt-3" width="150" height="150">
+    
+    <!-- Tambahan bacaan -->
+    <p class="mt-3 fw-semibold" style="color: #6b4c3b;">Hiii! Aku Aulia Zahra Elviani, gadis kelahiran 4 April 2005 yang punya semangat besar dalam dunia kreativitas. Aku suka banget menari, masak, dan menikmati musik. Tiga hal yang bikin hariku lebih hidup!
+
+      Aku dikenal sebagai pribadi yang ramah, ceria, dan selalu berusaha menyebarkan energi positif ke sekelilingku. Aku juga orang yang gigih—kalau sudah punya keinginan, akan aku kejar sampai tercapai 💪
+      
+      Aku ingin menjadi seorang yang bisa menginspirasi banyak orang lewat karya-karya digital, terutama desain visual. Aku ingin menjadikan hobiku sebagai sesuatu yang berdampak dan bermakna.
+      
+      Salah satu pencapaianku yang aku banggakan adalah menjadi penari aktif di berbagai acara sekolah dan komunitas—sebuah pengalaman yang menumbuhkan kepercayaan diriku di depan umum dan mengasah kreativitasku.
+      
+      Saat ini, aku sedang terus berkembang, sambil membawa motto hidupku:
+      
+      “Lakukan dengan hati, hasilkan dengan cinta.” ❤️
+      
+      </p>
+  </div>
+</section>
+
+
+<!-- Section Tentang Saya -->
+<section id="about" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center mb-4">About Myself</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card shadow-lg border-0" style="background-color: #f5ebe0;">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-4 text-center mb-3 mb-md-0">
+                <img src="fotosy.jpeg" alt="Foto Aulia Zahra" class="img-fluid rounded-circle" width="150">
+              </div>
+              <div class="col-md-8">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item bg-transparent"><strong>Nama:</strong> Aulia Zahra Elviani</li>
+                  <li class="list-group-item bg-transparent"><strong>Tempat, Tanggal Lahir:</strong> 4 April 2005</li>
+                  <li class="list-group-item bg-transparent"><strong>Alamat:</strong> JL. SMAN2 BANGKO</li>
+                  <li class="list-group-item bg-transparent"><strong>Email:</strong> auliaazahra00404@gmail.com</li>
+                  <li class="list-group-item bg-transparent"><strong>Hobi:</strong> Menari, Memasak, Musik</li>
+                  <li class="list-group-item bg-transparent"><strong>Kemampuan:</strong> Canva</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section Tentang Keluarga -->
+<section id="family" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4" style="font-family: 'Arial', sans-serif; color: #8b5d3b;">About My Family</h2>
+    
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-6 text-center">
+        <div class="card shadow-lg border-0 p-4" style="background-color: #f7e1c4; border-radius: 10px;">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-transparent border-0 text-dark" style="font-size: 1.2rem; font-weight: 500;">
+              <strong>Aku adalah seorang anak dari Bapak Muhammad Mukim dan Ibu Elvisa Masnur</strong> Yang dimana aku pertama dari 5 bersaudara. Yap, aku adalah seorang kakak yang sedang berusaha membuka jalan yang baik untuk adik-adikku dan menjadi harapan pertama di keluarga.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-center mt-5">
+      <img src="fotokeluarga.jpeg" alt="Foto Keluarga" class="shadow-lg" style="width: 300px; height: auto; border-radius: 50% / 30%; border: 5px solid #8b5d3b; object-fit: cover;">
+    </div>
+  </div>
+</section>
+
+  <!-- Section Pendidikan -->
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Riwayat Pendidikan</h2>
+      <div class="row justify-content-center g-4">
+
+        <!-- SD -->
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="card shadow" style="width: 18rem;">
+            <img src="fotosd.PNG" class="card-img-top img-fluid rounded" alt="Foto SD" style="height: 200px; object-fit: cover;">
+            <div class="card-body text-center">
+              <h5 class="card-title">Sekolah Dasar</h5>
+              <p class="card-text">SD Negeri 003 Bagan Hulu,<br>Tahun Lulus: 2017</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SMP -->
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="card shadow" style="width: 18rem;">
+            <img src="fotosmp.jpeg" class="card-img-top img-fluid rounded" alt="Foto SMP" style="height: 200px; object-fit: cover;">
+            <div class="card-body text-center">
+              <h5 class="card-title">Sekolah Menengah Pertama</h5>
+              <p class="card-text">Pondok Pesantren Bidayatul Hidayah,<br>Tahun Lulus: 2020</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SMA -->
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="card shadow" style="width: 18rem;">
+            <img src="fotosma.jpeg" class="card-img-top img-fluid rounded" alt="Foto SMA" style="height: 200px; object-fit: cover;">
+            <div class="card-body text-center">
+              <h5 class="card-title">Sekolah Menengah Atas</h5>
+              <p class="card-text">SMA Negeri 2 Bangko,<br>Tahun Lulus: 2023</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Galeri -->
+  <section id="galeri" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Memory ❤👀</h2>
+      <div class="row g-4">
+        <div class="col-md-3 col-sm-6">
+          <div class="card shadow-sm">
+            <img src="fotonari1.jpeg" class="card-img-top img-fluid rounded" alt="Foto 1" style="height: 200px; object-fit: cover;">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card shadow-sm">
+            <img src="fotonari2.jpeg" class="card-img-top img-fluid rounded" alt="Foto 2" style="height: 200px; object-fit: cover;">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card shadow-sm">
+            <img src="fotonari3.jpeg" class="card-img-top img-fluid rounded" alt="Foto 3" style="height: 200px; object-fit: cover;">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card shadow-sm">
+            <img src="fotonari4.jpeg" class="card-img-top img-fluid rounded" alt="Foto 4" style="height: 200px; object-fit: cover;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Section Tentang Saya -->
+<section id="contact" class="py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card shadow-lg border-0" style="background-color: #f5ebe0;">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-4 text-center mb-3 mb-md-0">
+                </div>
+              <div class="col-md-8">
+                <ul class="list-group list-group-flush">
+            
+                  <li class="list-group-item bg-transparent"><strong>Email:</strong> auliaazahra00404@gmail.com</li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
